@@ -99,7 +99,7 @@ A beautiful, modern recipe management application built with React, TypeScript, 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/musthafalabeebka/react-intern-assessment
    cd react-intern-assessment
    ```
 
@@ -112,8 +112,8 @@ A beautiful, modern recipe management application built with React, TypeScript, 
 3. **Install Shadcn UI components**
 
    ```bash
-   npx shadcn-ui@latest add button card input textarea label form
-   npx shadcn-ui@latest add select sonner alert-dialog pagination dialog
+   npx shadcn@latest add button card input textarea label form
+   npx shadcn@latest add select sonner alert-dialog pagination dialog
    ```
 
 4. **Start development server**
