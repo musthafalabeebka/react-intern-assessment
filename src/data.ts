@@ -8,9 +8,9 @@ export const dummyData : RecipeType[] = [
         ingredients: [
             { name: "Large Eggs", unit: "nos", quantity: 3 },
             { name: "Milk", unit: "ml", quantity: 30 },
-            { name: "Salt", unit: "mg", quantity: 1000 }, // 1g
-            { name: "Black Pepper", unit: "mg", quantity: 500 }, // 0.5g
-            { name: "Butter", unit: "mg", quantity: 10000 } // 10g
+            { name: "Salt", unit: "g", quantity: 1 }, // 1g
+            { name: "Black Pepper", unit: "g", quantity: 0.5 }, // 0.5g
+            { name: "Butter", unit: "g", quantity: 1 } // 10g
         ]
     },
     {
@@ -21,7 +21,7 @@ export const dummyData : RecipeType[] = [
             { name: "Water", unit: "l", quantity: 1 },
             { name: "Lemon", unit: "nos", quantity: 2 },
             { name: "Mint Leaves", unit: "nos", quantity: 5 },
-            { name: "Sugar", unit: "mg", quantity: 20000 }, // 20g
+            { name: "Sugar", unit: "g", quantity: 20 }, // 20g
             { name: "Ice Cubes", unit: "nos", quantity: 6 }
         ]
     },
@@ -34,7 +34,7 @@ export const dummyData : RecipeType[] = [
             { name: "Vegetable Stock", unit: "ml", quantity: 500 },
             { name: "Garlic Cloves", unit: "nos", quantity: 3 },
             { name: "Olive Oil", unit: "ml", quantity: 15 },
-            { name: "Fresh Basil", unit: "mg", quantity: 5000 } // 5g
+            { name: "Fresh Basil", unit: "g", quantity: 5 } // 5g
         ]
     },
     {
@@ -43,8 +43,8 @@ export const dummyData : RecipeType[] = [
         description: "Creamy blended iced coffee with a chocolate topping.",
         ingredients: [
             { name: "Cold Milk", unit: "ml", quantity: 300 },
-            { name: "Instant Coffee Powder", unit: "mg", quantity: 5000 }, // 5g
-            { name: "Sugar", unit: "mg", quantity: 15000 }, // 15g
+            { name: "Instant Coffee Powder", unit: "g", quantity: 5 }, // 5g
+            { name: "Sugar", unit: "g", quantity: 15 }, // 15g
             { name: "Vanilla Ice Cream Scoop", unit: "nos", quantity: 1 },
             { name: "Chocolate Syrup", unit: "ml", quantity: 10 }
         ]
